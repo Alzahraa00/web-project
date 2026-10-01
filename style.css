@@ -111,7 +111,34 @@ input[type="reset"] {
     padding: 10px 20px;
     cursor: pointer;
 }
+/* Login and Create Account pages */
 
+#login {
+    width: 350px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+#login input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+#login button {
+    background-color: #2c5f7c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#login button:hover {
+    background-color: #1b3f52;
+}
 input[type="submit"]:hover,
 input[type="reset"]:hover {
     background-color: #1b3f52;
