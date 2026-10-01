@@ -139,6 +139,15 @@ input[type="reset"] {
 #login button:hover {
     background-color: #1b3f52;
 }
+body > h2 {
+    text-align: center;
+    color: #2c5f7c;
+    margin-top: 50px;
+}
+
+body > hr {
+    display: none;
+}
 input[type="submit"]:hover,
 input[type="reset"]:hover {
     background-color: #1b3f52;
